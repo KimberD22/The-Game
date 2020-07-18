@@ -1,17 +1,39 @@
-title {
+h1 {
+    text-align: center;
+    font:purple;
+}
+h3 {
     text-align: center;
 }
-td {
-    border: 2px solid purple;
+.block {
+    margin:auto;
+    width: 600px;
+    height: 600px;
+    display:flex;
+    flex-wrap: wrap;
+}
+.block div {
+    margin: auto;
     width: 200px;
     height: 200px;
-    text-align: center;
-    vertical-align: middle;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 60px;
-    cursor: pointer;
+    background-color: pink;
 }
-button {
-    width: 100px;
-    height: 50px;
+
+.pizzaPlayerX {
+    background-image:url("./images/pizza.png" );
 }
+
+.donutPlayerO {
+    background-image: url("./images/donut.png");
+
+}
+
+#Pizza Rat {
+    text-align: left;
+    
+}
+
+#Dougie {
+    text-align: right;
+}
+
